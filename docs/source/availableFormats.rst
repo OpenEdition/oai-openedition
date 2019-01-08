@@ -1,3 +1,5 @@
+.. _formats:
+
 Available Formats
 ============================
 

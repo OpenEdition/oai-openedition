@@ -38,13 +38,31 @@ See :ref:`dcrights` and :ref:`dctermsaccessrights` for details
 
 **Restricted access document (qdc):** http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:pufr/10095&metadataPrefix=qdc 
 
+2. How can I harvest all documents from OpenEdition Journals?
+-------------------------------------------------------------------
 
-2. How can I harvest a specific journal or blog?
+Use the set `journals` and the metadataPrefix `oai_dc` or `qdc` to get all documents (issues, articles, reviews): http://oai.openedition.org/?verb=ListRecords&set=journals&metadataPrefix=qdc
+
+Use the set `journals` and metadataPrefix `mets` to get only issues (with links to each articles inside the mets `structMap` element): http://oai.openedition.org/?verb=ListRecords&set=journals&metadataPrefix=mets
+
+See the following sections for details:
+
+.. toctree::
+   :maxdepth: 1
+
+   sets
+   oai_dc
+   qdc
+   mets
+
+
+
+3. How can I harvest a specific journal or blog?
 ----------------------------------------------------------
 Use one of a following method to find and harvest a specific set: :ref:`findaset` 
 
 
-3. Sample queries?
+4. Sample queries?
 ----------------------------------------------
 
 **Retrieving general information about the repository:**
