@@ -85,9 +85,9 @@ http://oai.openedition.org/?verb=ListRecords&set=events:calendaorg&from=2013-01-
 
 http://oai.openedition.org/?verb=ListRecords&set=journals:jtei&metadataPrefix=mets
 
-**Listing the documents’ identifiers of the Publications de l’École française de Rome:**
+**Listing the documents’ identifiers of the Publications de l’École française de Rome available in qdc format:**
 
-http://oai.openedition.org/?verb=ListIdentifiers&set=books:efr
+http://oai.openedition.org/?verb=ListIdentifiers&set=books:efr&metadataPrefix=qdc
 
 **Listing the available metadata formats for a post in the academic blog The Recipes Project:**
 
