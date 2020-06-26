@@ -16,7 +16,7 @@ One set for each platform:
 * ``blogs``: records from Hypotheses
 * ``events``: records from Calenda
 
-One extra set form records relevant to `OpenAIRE <https://www.openaire.eu/>`_ 
+One extra set for records relevant to `OpenAIRE <https://www.openaire.eu/>`_ 
 
 * ``openaire``
 
