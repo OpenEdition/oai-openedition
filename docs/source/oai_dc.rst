@@ -254,14 +254,14 @@ http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:balkanologi
     <dc:coverage>Turquie</dc:coverage>
 
 
-11. dc:subjects
+11. dc:subject
 -----------------
 
 11.1 Keywords
 ^^^^^^^^^^^^^^^^^^
 
 Available for OpenEdition Journals and OpenEdition Books. 
-``dc:subjects`` may contains keywords. In this case, an ``xml:lang`` attribute specifies the language of the keyword.
+``dc:subject`` may contains keywords. In this case, an ``xml:lang`` attribute specifies the language of the keyword.
 
 **Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:belgeo/20507&metadataPrefix=oai_dc
 
@@ -286,7 +286,7 @@ Available for OpenEdition Journals and OpenEdition Books.
 
 11.2 Other Subjects
 ^^^^^^^^^^^^^^^^^^^^^^
-For OpenEdition Books only, ``dc:subjects`` may also contains terms from `BISAC <https://bisg.org/page/BISACSubjectCodes>`_, `BIC <https://ns.editeur.org/bic_categories>`_, `ISI <https://en.wikipedia.org/wiki/Institute_for_Scientific_Information>`_ classification.
+For OpenEdition Books only, ``dc:subject`` may also contains terms from `BISAC <https://bisg.org/page/BISACSubjectCodes>`_, `BIC <https://ns.editeur.org/bic_categories>`_, `ISI <https://en.wikipedia.org/wiki/Institute_for_Scientific_Information>`_ classification.
 
 **Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:pum/21469&metadataPrefix=oai_dc
 

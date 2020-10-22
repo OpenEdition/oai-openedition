@@ -336,14 +336,14 @@ Available for OpenEdition Journals and OpenEdition Books.
     <dcterms:temporal>âge du Bronze</dcterms:temporal>
     <dcterms:temporal>Néolithique</dcterms:temporal>
 
-18. dcterms:subjects
+18. dcterms:subject
 ---------------------------
 
 18.1 Keywords
 ^^^^^^^^^^^^^^^^^^
 
 Available for OpenEdition Journals and OpenEdition Books. 
-``dcterms:subjects`` with a attribute ``scheme="keywords"`` may contains keywords. An ``xml:lang`` attribute specifies the language of the keyword.
+``dcterms:subject`` with a attribute ``scheme="keywords"`` may contains keywords. An ``xml:lang`` attribute specifies the language of the keyword.
 
 **Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:belgeo/20507&metadataPrefix=qdc
 
@@ -367,7 +367,7 @@ Available for OpenEdition Journals and OpenEdition Books.
 
 18.2 Other Subjects
 ^^^^^^^^^^^^^^^^^^^^^^
-For OpenEdition Books only, ``dcterms:subjects`` may also contains terms from `BISAC <https://bisg.org/page/BISACSubjectCodes>`_, `BIC <https://ns.editeur.org/bic_categories>`_, `ISI <https://en.wikipedia.org/wiki/Institute_for_Scientific_Information>`_ classification. The ``scheme`` attribute specifies the classification.
+For OpenEdition Books only, ``dcterms:subject`` may also contains terms from `BISAC <https://bisg.org/page/BISACSubjectCodes>`_, `BIC <https://ns.editeur.org/bic_categories>`_, `ISI <https://en.wikipedia.org/wiki/Institute_for_Scientific_Information>`_ classification. The ``scheme`` attribute specifies the classification.
 
 **Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:pum/21469&metadataPrefix=qdc
 
