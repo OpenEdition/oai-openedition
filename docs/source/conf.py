@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'OpenEdition OAI-PMH Repository'
-copyright = u'2018, OpenEdition'
+copyright = u'2022, OpenEdition'
 author = u'Jean-François Rivière'
 
 # The short X.Y version
