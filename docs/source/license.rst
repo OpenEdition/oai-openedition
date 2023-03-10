@@ -9,7 +9,7 @@ Metadata available in OAI-PMH repository
    :alt: Creative Commons CC0 1.0 Universal 
    :target: https://creativecommons.org/publicdomain/zero/1.0/
 
-Metadata available in OAI-PMH repository are licensed under the terms of `Creative Commons CC0 1.0 Universal <https://creativecommons.org/publicdomain/zero/1.0/>`_.
+Metadata available in OAI-PMH repository is licensed under the terms of `Creative Commons CC0 1.0 Universal <https://creativecommons.org/publicdomain/zero/1.0/>`_.
 
 
 
