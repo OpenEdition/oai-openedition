@@ -12,9 +12,9 @@ Calenda and Hypotheses
 
 All the Calenda and Hypotheses documents are available in open access. You can get these documents using the set that match the platforms. More info: :ref:`sets` 
 
-**Calenda:** http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=events 
+**Calenda:** https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=events 
 
-**Hypotheses:** http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=blogs 
+**Hypotheses:** https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=blogs 
 
 ----------------------------------------------
 
@@ -25,7 +25,7 @@ use the ``openaire`` set (Journals and Books)
 
 This set lists only open access records. More info: :ref:`sets`
 
-**OpenAIRE:** http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=openaire 
+**OpenAIRE:** https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=openaire 
 
 use dc:rights or dcterms:accessRights while harvesting (all platforms)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -34,16 +34,16 @@ For each record, the ``dc.rights`` element  (``oai_dc`` format) and the ``dcterm
 
 See :ref:`dcrights` and :ref:`dctermsaccessrights` for details  
 
-**Open access document (qdc):** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:anthropologiesante/2918&metadataPrefix=qdc
+**Open access document (qdc):** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:anthropologiesante/2918&metadataPrefix=qdc
 
-**Restricted access document (qdc):** http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:pufr/10095&metadataPrefix=qdc 
+**Restricted access document (qdc):** https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:pufr/10095&metadataPrefix=qdc 
 
 2. How can I harvest all documents from OpenEdition Journals?
 -------------------------------------------------------------------
 
-Use the set `journals` and the metadataPrefix `oai_dc` or `qdc` to get all documents (issues, articles, reviews): http://oai.openedition.org/?verb=ListRecords&set=journals&metadataPrefix=qdc
+Use the set `journals` and the metadataPrefix `oai_dc` or `qdc` to get all documents (issues, articles, reviews): https://oai.openedition.org/?verb=ListRecords&set=journals&metadataPrefix=qdc
 
-Use the set `journals` and metadataPrefix `mets` to get only issues (with links to each articles inside the mets `structMap` element): http://oai.openedition.org/?verb=ListRecords&set=journals&metadataPrefix=mets
+Use the set `journals` and metadataPrefix `mets` to get only issues (with links to each articles inside the mets `structMap` element): https://oai.openedition.org/?verb=ListRecords&set=journals&metadataPrefix=mets
 
 See the following sections for details:
 
@@ -67,30 +67,30 @@ Use one of a following method to find and harvest a specific set: :ref:`findaset
 
 **Retrieving general information about the repository:**
 
-http://oai.openedition.org/?verb=Identify
+https://oai.openedition.org/?verb=Identify
 
 **Listing available sets:**
 
-http://oai.openedition.org/?verb=ListSets
+https://oai.openedition.org/?verb=ListSets
 
 **Retrieving all documents metadata from all platforms, in Qualified Dublin Core format:**
 
-http://oai.openedition.org/?verb=ListRecords&metadataPrefix=qdc
+https://oai.openedition.org/?verb=ListRecords&metadataPrefix=qdc
 
 **Retrieving all metadata from Calenda added since 1 January 2013, in Qualified Dublin Core format:**
 
-http://oai.openedition.org/?verb=ListRecords&set=events:calendaorg&from=2013-01-01&metadataPrefix=qdc
+https://oai.openedition.org/?verb=ListRecords&set=events:calendaorg&from=2013-01-01&metadataPrefix=qdc
 
 **Retrieving all documents of Journal of TEI, in METS format:**
 
-http://oai.openedition.org/?verb=ListRecords&set=journals:jtei&metadataPrefix=mets
+https://oai.openedition.org/?verb=ListRecords&set=journals:jtei&metadataPrefix=mets
 
 **Listing the documents’ identifiers of the Publications de l’École française de Rome available in qdc format:**
 
-http://oai.openedition.org/?verb=ListIdentifiers&set=books:efr&metadataPrefix=qdc
+https://oai.openedition.org/?verb=ListIdentifiers&set=books:efr&metadataPrefix=qdc
 
 **Listing the available metadata formats for a post in the academic blog The Recipes Project:**
 
-http://oai.openedition.org/?verb=ListMetadataFormats&identifier=oai:hypotheses.org:recipes/2294
+https://oai.openedition.org/?verb=ListMetadataFormats&identifier=oai:hypotheses.org:recipes/2294
 
 

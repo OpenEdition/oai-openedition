@@ -38,8 +38,8 @@ From OAI ListSets
 ^^^^^^^^^^^^^^^^^^^
 The complete list of Sets is available in the repository using the OAI verb ``ListSets``. The repository displays 10 sets per page. Use the ``resumptionToken`` parameter to display the next page. 
 
-* http://oai.openedition.org/?verb=ListSets
-* http://oai.openedition.org/?verb=ListSets&resumptionToken=cursor%3D10
+* https://oai.openedition.org/?verb=ListSets
+* https://oai.openedition.org/?verb=ListSets&resumptionToken=cursor%3D10
 
 
 From publication URL
@@ -66,17 +66,17 @@ Set = ``journals:[journalID]``
 Sample queries
 -------------------
 
-* http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=journals
-* http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=books
-* http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=blogs
-* http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=events
-* http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=openaire
+* https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=journals
+* https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=books
+* https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=blogs
+* https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=events
+* https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=openaire
 
 --------------------------------------
 
-* http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=journals:ejpap
-* http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=books:pur
-* http://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=blogs:histoirebnf
+* https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=journals:ejpap
+* https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=books:pur
+* https://oai.openedition.org/?verb=ListRecords&metadataPrefix=oai_dc&set=blogs:histoirebnf
 
 
 

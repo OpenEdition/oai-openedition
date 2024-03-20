@@ -36,7 +36,7 @@ If you need access to OpenEdition’s TEI as a partner, please email us at conta
 
 **Example**
 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:terrain/16916&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:terrain/16916&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -44,7 +44,7 @@ http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:terrain/169
     <?xml version="1.0" encoding="UTF-8"?>
     <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
       <responseDate>2018-10-11T20:34:26Z</responseDate>
-      <request verb="GetRecord" identifier="oai:revues.org:terrain/16916" metadataPrefix="qdc">http://oai.openedition.org/</request>
+      <request verb="GetRecord" identifier="oai:revues.org:terrain/16916" metadataPrefix="qdc">https://oai.openedition.org/</request>
       <GetRecord xmlns:qdc="http://epubs.cclrc.ac.uk/xmlns/qdc/" xmlns:dcterms="http://purl.org/dc/terms/">
         <record>
           <header>

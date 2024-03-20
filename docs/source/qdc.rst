@@ -19,7 +19,7 @@ Alternative title (translated title). Repeatable. An ``xml:lang`` attribute spec
 
 Available for OpenEdition Journals and OpenEdition Books.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:histoire-education/2589&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:histoire-education/2589&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -36,11 +36,11 @@ Unavailable for Calenda.
 .. note :: For Journal Issues and Books, ``dcterms.creator`` provides authors of the issue or the book AND authors of the child articles or chapters.
 
 **Example of a book with multiple authors at chapter level:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:gup/348&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:gup/348&metadataPrefix=qdc
 
 For archeological note, ``dcterms:creator`` may also contain archaeological project directors.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:archeomed/7020&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:archeomed/7020&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -56,7 +56,7 @@ See https://journals.openedition.org/archeomed/7020?lang=en for roles of each ``
 
 Scientific and academic editor of the document. Available for OpenEdition Journals and OpenEdition Books. 
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:cvz/3321&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:cvz/3321&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -66,7 +66,7 @@ Scientific and academic editor of the document. Available for OpenEdition Journa
 
 For archeological note and article, ``dcterms:contributor`` may also contain collaborators.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:archeomed/11348&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:archeomed/11348&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -87,7 +87,7 @@ Publication date of the document on OpenEdition platform.
 If an article was previously published in another format (for instance a print version), the ``dcterms:issued`` element won't provide the date of the previous publishing but only the publishing date of the document on OpenEdition.
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:remi/8732&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:remi/8732&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -127,7 +127,7 @@ The ``dcterms:accessRights`` element can match the following values :
 * ``info:eu-repo/semantics/restrictedAccess`` : book and book section in restricted acces.
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:ariadnaediciones/158&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:ariadnaediciones/158&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -140,7 +140,7 @@ http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:
 
 Applicable for OpenEdition Jounals. If ``dcterms:accessRights = "info:eurepo/semantics/embargoedAccess"``, then the ``dcterms:available`` element will provide the end date of embargo (availability date of the document in open access):
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:rfp/5246&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:rfp/5246&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -156,7 +156,7 @@ Applicable for OpenEdition Jounals. If ``dcterms:accessRights = "info:eurepo/sem
 
 For OpenEdition Journals and Hypotheses documents ``dcterms:publisher`` provides also the journal or blog title
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:studifrancesi/2636&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:studifrancesi/2636&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -174,7 +174,7 @@ Identifier of the document. Repeatable.
 ``dcterms:identifier`` with an attribute ``scheme="URI"`` provides the URI of the document.
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:remi/5530&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:remi/5530&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -188,7 +188,7 @@ Available for OpenEdition Journals and OpenEdition Books.
 ``dcterms:identifier`` with an attribute ``scheme="URN"`` and a ``urn:doi`` prefix provides the DOI of the document.
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:remi/5530&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:remi/5530&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -202,7 +202,7 @@ Available for OpenEdition Books.
 ``dcterms:identifier`` with an attribute ``scheme="URN"`` and a ``urn:isbn`` or ``urn:eisbn`` prefix provides respectively ISBN of the print and electronic version of the book.
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:gup/348&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:gup/348&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -213,7 +213,7 @@ http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:
 For OAI records of a book chapter, the ISBN and eISBN provided refer to the parent book of that chapter.
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:gup/367&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:gup/367&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -228,7 +228,7 @@ Available for OpenEdition Journals.
 
 ``dcterms:isPartOf`` with an attribute ``scheme="URN"`` and a ``urn:issn`` or ``urn:eissn`` prefix provides respectively ISSN of the print and electronic version of the journal in which the document was published.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -250,7 +250,7 @@ Link to TEI structured full text and to Raw text is retrivable in ``dcterms:hasF
 
 .. note :: Access to Full text in TEI and Raw text format is only available for authorized IP address (OpenEdition partners). More infos :ref:`tei`  
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -264,7 +264,7 @@ Link to TEI structured full text and to Raw text is retrivable in ``dcterms:hasF
 Document language. RFC1766 format. 
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:cfee/1081&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:cfee/1081&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -282,7 +282,7 @@ Available for all platforms.
 
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:lectures/27329&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:lectures/27329&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -295,7 +295,7 @@ http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:lectures/27
 
 Available for OpenEdition Journals and OpenEdition Books. ``dcterms:rights`` may contain license information if provided by the publisher.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:ariadnaediciones/158&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:ariadnaediciones/158&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -309,14 +309,14 @@ Available for OpenEdition Journals and OpenEdition Books.
 
 ``dcterms:extent`` may provide the number of pages or the pages range in print edition of the document.
 
-**Page range example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:ethnomusicologie/1513&metadataPrefix=qdc
+**Page range example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:ethnomusicologie/1513&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
     
     <dcterms:extent>240-241</dcterms:extent>
 
-**Number of pages example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:purh/7891&metadataPrefix=qdc
+**Number of pages example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:purh/7891&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -331,7 +331,7 @@ Available for OpenEdition Journals and OpenEdition Books.
 ``dcterms:spatial`` may contain spatial topics of the document.
 
 **Example:** 
-http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:balkanologie/717&metadataPrefix=qdc
+https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:balkanologie/717&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -346,7 +346,7 @@ Available for OpenEdition Journals and OpenEdition Books.
 
 ``dcterms:temporal`` may contain temporal characteristics of the document.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:dam/460&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:dam/460&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -363,7 +363,7 @@ Available for OpenEdition Journals and OpenEdition Books.
 Available for OpenEdition Journals and OpenEdition Books. 
 ``dcterms:subject`` with a attribute ``scheme="keywords"`` may contains keywords. An ``xml:lang`` attribute specifies the language of the keyword.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:belgeo/20507&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:belgeo/20507&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -387,7 +387,7 @@ Available for OpenEdition Journals and OpenEdition Books.
 ^^^^^^^^^^^^^^^^^^^^^^
 For OpenEdition Books only, ``dcterms:subject`` may also contains terms from `BISAC <https://bisg.org/page/BISACSubjectCodes>`_, `BIC <https://ns.editeur.org/bic_categories>`_, `ISI <https://en.wikipedia.org/wiki/Institute_for_Scientific_Information>`_ classification. The ``scheme`` attribute specifies the classification.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:pum/21469&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org:pum/21469&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -407,7 +407,7 @@ For OpenEdition Books only, ``dcterms:subject`` may also contains terms from `BI
 
 ``dcterms:abstract`` provides abstracts of the document. Abstacts may be available in several languages specified by the ``xml:lang`` attribute.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:cipango/1688&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:cipango/1688&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -420,7 +420,7 @@ For OpenEdition Books only, ``dcterms:subject`` may also contains terms from `BI
 
 ``dcterms:descripton`` provides an excerpt of the document, usualy the first lines. ``dcterms:descripton`` is used only in the lack of ``dcterms:abstract``.
 
-**Example:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:appareil/1493&metadataPrefix=qdc
+**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:appareil/1493&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -438,7 +438,7 @@ Available for OpenEdition Journals, for ``issue`` documents only (see :ref:`type
 
 Elements ``dcterms:bibliographicalCitation.issue`` and ``dcterms:bibliographicalCitation.volume`` provides the issue number ans the volume number.
 
-**Example with issue only:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:beo/787&metadataPrefix=qdc
+**Example with issue only:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:beo/787&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
@@ -446,7 +446,7 @@ Elements ``dcterms:bibliographicalCitation.issue`` and ``dcterms:bibliographical
     <dcterms:bibliographicCitation.issue>61</dcterms:bibliographicCitation.issue>
 
  
-**Example with issue and volume:** http://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:ejas/7622&metadataPrefix=qdc
+**Example with issue and volume:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:ejas/7622&metadataPrefix=qdc
 
 .. code-block:: xml
     :linenos:
