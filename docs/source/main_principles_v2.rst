@@ -1,3 +1,5 @@
+.. _main_principles_v2:
+
 Main Principles (v2 beta)
 ==================================
 

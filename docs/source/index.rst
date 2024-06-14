@@ -5,7 +5,12 @@ OpenEdition OAI-PMH repository Documentation
 
 The OpenEdition OAI-PMH repository provides metadata of the documents published on `OpenEdition Books <https://books.openedition.org>`_, `OpenEdition Journals <https://journals.openedition.org>`_, `Hypotheses <https://hypotheses.org>`_, and `Calenda <http://calenda.org>`_.
 
-The version 2 beta of the OAI-PMH repository is available at https://metadata.openedition.org/oai2
+.. note::
+
+    The version 2 beta of the OAI-PMH repository is available at https://metadata.openedition.org/oai2
+
+    The documentation is available at :ref:`OAI v2 beta / Main principles <main_principles_v2>`.
+
 
 The version 1 is available at https://oai.openedition.org.
 
