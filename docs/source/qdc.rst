@@ -248,7 +248,7 @@ Link to TEI structured full text and to Raw text is retrivable in ``dcterms:hasF
 * ``<dcterms:hasFormat scheme="TEI">``: link to structured  XML-TEI Full text (suitable for republication and text and dat mining)
 * ``<dcterms:hasFormat scheme="BASICTEI">``: link to full text in the "basicTEI" format witch provide metadata of the document in TeiHeader and raw text in the body section (suitable for text indexing). 
 
-.. note :: Access to Full text in TEI and Raw text format is only available for authorized IP address (OpenEdition partners). More infos :ref:`tei`  
+.. note :: Access to Full text in TEI and Raw text format is only available for authorized IP address (OpenEdition partners). More infos :ref:`tei_v1`  
 
 **Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=qdc
 
@@ -278,7 +278,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org
 
 Available for all platforms. 
 
-``dcterms:type`` provides the document type according to the list of types available in this section: :ref:`types`. 
+``dcterms:type`` provides the document type according to the list of types available in this section: :ref:`types_v1`. 
 
 
 **Example:** 
@@ -432,7 +432,7 @@ For OpenEdition Books only, ``dcterms:subject`` may also contains terms from `BI
 22. dcterms:bibliographicalCitation
 ---------------------------------------------
 
-Available for OpenEdition Journals, for ``issue`` documents only (see :ref:`types`). 
+Available for OpenEdition Journals, for ``issue`` documents only (see :ref:`types_v1`). 
 
 .. note :: Only covers a small part of journal issues.
 

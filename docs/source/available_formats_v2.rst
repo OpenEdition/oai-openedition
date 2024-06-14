@@ -1,7 +1,13 @@
-.. _formats:
+.. _formats_v2:
 
-Available Formats
-============================
+Available Formats (v2 beta)
+=====================================
+.. warning::
+
+      This documentation concerns version 2 beta of the OpenEdition OAI-PMH repository. This version is subject to change until version 2.0 is released. 
+
+      **NOT FOR USE IN PRODUCTION**
+
 
 .. contents:: Table of Contents
    :depth: 2
@@ -11,16 +17,19 @@ Metadata in OAI
 
 Records are available in the following metadata formats:
 
-* ``oai_dc``: Dublin Core
-* ``qdc``: Qualified Dublin Core
-* ``mets``: Metadata Encoding and Transmission Standard
+* ``oai_dc``: Dublin Core, following `OpenAIRE Guidelines for Literature Repositories v3 <https://guidelines.openaire.eu/en/latest/literature/index_guidelines-lit_v3.html>`_
+* ``oai_openaire``: `OpenAIRE Guidelines for Literature Repository Managers v4 <https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/>`_
+* ``mods``: `Metadata Object Description Schema <https://www.loc.gov/standards/mods/>`_ 
+* ``mets``: `Metadata Encoding and Transmission Standard <https://www.loc.gov/standards/mets/>`_
 
-The METS format is available only for journal issues and books. It is not available for blogs, Calenda events, and electronic journals publishing streamed articles.
+The METS format is available only for journal issues and books. It is not available for blogs, Calenda events.
 
-.. _tei_v1:
+.. _tei_v2:
 
 TEI full text and Raw full text for partners
 ------------------------------------------------------
+
+TODO 
 
 .. note :: Access to Full text in TEI and Raw text format is only available for authorized IP address (OpenEdition partners)
 

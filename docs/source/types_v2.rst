@@ -1,9 +1,16 @@
-.. _types_v1:
+.. _types_v2:
 
-Document types
-===================
+Document types (v2 beta)
+============================
 
-Used in the :ref:`oai_dc <dctype>`, :ref:`qdc <dctermstype>` and :ref:`mets <metsstructmap_v1>` formats, the document types are normalised as follow: 
+.. warning::
+
+      This documentation concerns version 2 beta of the OpenEdition OAI-PMH repository. This version is subject to change until version 2.0 is released. 
+
+      **NOT FOR USE IN PRODUCTION**
+
+
+Used in the :ref:`oai_dc <dctype_v2>`, :ref:`oai_dc <modstype_v2>`,  and :ref:`mets <metsstructmap_v2>` formats, the document types are normalised as follow: 
 
 
 
@@ -19,8 +26,6 @@ Possible values for OpenEdition Journals
 * ``bibliography``
 * ``introduction``
 * ``archaeological note``
-* ``chapter``
-* ``book``
 * ``other``
 
 OpenEdition Books

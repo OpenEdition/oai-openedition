@@ -4,7 +4,7 @@ METS format
 .. contents:: Table of Contents
    :depth: 2
 
-The ``mets`` (Metadata Encoding and Transmission Standard) format is available for books and journal issues (more info about types :ref:`types`). The aim of this format is to describe the metadata and the complete structure of the volume (book or journal issue). 
+The ``mets`` (Metadata Encoding and Transmission Standard) format is available for books and journal issues (more info about types :ref:`types_v1`). The aim of this format is to describe the metadata and the complete structure of the volume (book or journal issue). 
 
 The ``mets`` format is documented on the Library of Congress website: http://www.loc.gov/standards/mets/.
 
@@ -13,7 +13,7 @@ The list of available records in mets format can be found through OAI: https://o
 In OpenEdition OAI, a ``mets`` record is divided into 3 main parts : one ``mets:structMap``, one ``mets:fileSec`` and several ``mets:dmdSec``.
 
 
-.. _metsstructmap:
+.. _metsstructmap_v1:
 
 1. mets:structMap
 ---------------------
@@ -22,7 +22,7 @@ The ``mets:structMap`` element describes the tree structure of the volume.
 
 ``mets:div`` elements are nested to describe the hierarchial organisation of the volume, parts, texts. Each ``mets:div`` element is qualified with the following attributes:
 
-* ``TYPE``:  :ref:`List of document types <types>` 
+* ``TYPE``:  :ref:`List of document types <types_v1>` 
 * ``ORDER``: sequence number whitch defines the order of the documents relative to the parent ``div`` element.
 * ``DMDID``: refer to the ``ID`` of the relevant ``mets:dmdSec`` element.
 * ``LABEL``: descriptive label 
