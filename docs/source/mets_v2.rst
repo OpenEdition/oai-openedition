@@ -1,5 +1,5 @@
-mets format
-=================
+mets format (v2 beta)
+=============================
 
 .. warning::
 
