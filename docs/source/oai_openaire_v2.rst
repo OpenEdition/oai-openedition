@@ -24,7 +24,7 @@ The ``oai_openaire`` format provides the following elements, according to  `Open
 - The Handle identifier is also used as OAI-PMH identifier ``record/header/identifier``
 
 **Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -41,7 +41,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jsak&metadat
 
 
 **Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/gd0i&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/gd0i&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -61,7 +61,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/gd0i&metadat
 - For Hypotheses blog posts, there is no distinction.
 
 **Example of a book:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/31o8&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o8&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -74,7 +74,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/31o8&metadat
       </datacite:creator>
     </datacite:creators>
 
-**Example of an archeological note:** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/9xim&metadataPrefix=oai_openaire
+**Example of an archeological note:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/9xim&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -93,7 +93,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/31o8&metadat
     </datacite:creators>
 
 **Example of a blog post:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11r1e&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r1e&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -110,7 +110,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11r1e&metada
 
 - Other contributors: translators, collaborators (For archeological note and article). 
 
-**Example (translator):** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/k5wx&metadataPrefix=oai_openaire
+**Example (translator):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/k5wx&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -124,7 +124,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11r1e&metada
     </datacite:contributors>
 
 
-**Example (collaborators):** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/9wrn&metadataPrefix=oai_openaire
+**Example (collaborators):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/9wrn&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -162,7 +162,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11r1e&metada
 - ``funderIdentifiertype`` is always ``"Crossref Funder"``
 - ``awardNumber`` may be precised, if information is available
 
-**Example :** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/fx&metadataPrefix=oai_openaire
+**Example :** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/fx&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -196,7 +196,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11r1e&metada
 
 
 **Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -213,7 +213,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jsak&metadat
 - Available for all records. 
 
 **Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -230,7 +230,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jsak&metadat
 - Available for books (OpenEdition Books) and journals issues (OpenEdition Journals).
 
 **Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/31o4&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o4&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -256,7 +256,7 @@ For chapters published in a book and articles published in a journal issue :
 - ``datacite:relatedIdentifier`` element with attribute ``relatedIdentifierType="ISBN"`` and ``relatedIdentifierType="PISBN"`` provides respectively the digital ISBN and Print ISBN of the parent book or journal issue.
 
 
-**Example (journal article):** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/gh7p&metadataPrefix=oai_openaire
+**Example (journal article):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/gh7p&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -269,7 +269,7 @@ For chapters published in a book and articles published in a journal issue :
     </datacite:relatedIdentifiers>
 
 
-**Example (book chapter):** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/7kfl&metadataPrefix=oai_openaire
+**Example (book chapter):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/7kfl&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -291,7 +291,7 @@ For chapters published in a book and articles published in a journal issue :
 - Document language. RFC1766 format. 
 
 **Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1x9t&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1x9t&metadataPrefix=oai_openaire
 
 
 .. code-block:: xml
@@ -306,7 +306,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1x9t&metadat
 - ``dc:publisher`` provides the publisher name. Repeatable.
 
 **Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1x9t&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1x9t&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -323,7 +323,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1x9t&metadat
 - For OpenEdition Journals, if ``datacite:rights = embargoed access``, an extra ``dc.date`` element with attribute ``dateType="Available"`` provides the end date of embargo (availability date of the document in open access):
 
 **Example (book published in 1990, published on OpenEditon Books on 28/08/2022):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/5div&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/5div&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -334,7 +334,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/5div&metadat
     </datacite:dates>
 
 **Example (journal article with embargoed access):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/k213&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/k213&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -355,7 +355,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/k213&metadat
 - Available for all records. 
 
 **Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/hpx1&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/hpx1&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -367,7 +367,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/hpx1&metadat
 
 ``dc:description`` contains abstracts of the document if available, an excerpt (usualy the first lines) otherwise. Abstacts may be available in several languages. In this case, and ``xml:lang`` attribute specifies the language of the description.
 
-**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/l8zw&metadataPrefix=oai_openaire
+**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/l8zw&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -381,7 +381,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/hpx1&metadat
 
 - mime type of all records is ``text/html``
 
-**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=oai_openaire
+**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -391,40 +391,13 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/hpx1&metadat
 
 .. _dataciterights:
 
-14. datacite:rights
---------------------------
-
-- Access right of the resource.
-- Available for all records. 
-
-**Example:** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=oai_openaire
-
-.. code-block:: xml
-    :linenos:
-
-    <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
-
-15. oaire:licenseCondition
-------------------------------
-
-- ``oaire:licenseCondition`` contains license information.
-- Available for all records.
-
-**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=oai_openaire
-
-.. code-block:: xml
-    :linenos:
-
-    <oaire:licenseCondition uri="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</oaire:licenseCondition>
-
-16. datacite:subject
+14. datacite:subject
 ---------------------------
 
 - ``dc:subject`` contains keywords. An ``xml:lang`` attribute specifies the language of the keyword.
 - Available for OpenEdition Journals and OpenEdition Books and Calenda. 
 
-**Example:** https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=oai_openaire
+**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -446,14 +419,81 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1i54&metadat
       <datacite:subject xml:lang="fr">Census11</datacite:subject>
     </datacite:subjects>
 
-17. oaire:citationTitle
+
+15. datacite:rights
+--------------------------
+
+- Access right of the resource.
+- Available for all records. 
+
+**Example:** 
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=oai_openaire
+
+.. code-block:: xml
+    :linenos:
+
+    <datacite:rights rightsURI="http://purl.org/coar/access_right/c_abf2">open access</datacite:rights>
+
+16. oaire:licenseCondition
+------------------------------
+
+- ``oaire:licenseCondition`` contains license information.
+- Available for all records.
+
+**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=oai_openaire
+
+.. code-block:: xml
+    :linenos:
+
+    <oaire:licenseCondition uri="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</oaire:licenseCondition>
+
+17. oaire:file
+---------------------------
+
+- ``oaire:file`` provides the URL of the HTML of the resource.
+- For OpenEdition Journals and OpenEdition Books ``oaire:file`` provides also, the URL of the PDF, ePub, TEI and "Basic TEI" version of the resource.
+- ``mimeType`` attribute precises the format and ``accessRightsURI`` the access right type (using the http://purl.org/coar/access_right references).
+
+**Example (book):** 
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=oai_openaire
+
+.. code-block:: xml
+    :linenos:
+
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_abf2" mimeType="text/html" objectType="fulltext">https://books.openedition.org/ariadnaediciones/158</oaire:file>
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_16ec" mimeType="application/pdf" objectType="fulltext">https://books.openedition.org/ariadnaediciones/pdf/158</oaire:file>
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_16ec" mimeType="application/epub+zip" objectType="fulltext">https://books.openedition.org/ariadnaediciones/epub/158</oaire:file>
+
+**Example (journal article):** 
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d8ae&metadataPrefix=oai_openaire
+
+.. code-block:: xml
+    :linenos:
+
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_abf2" mimeType="text/html" objectType="fulltext">https://journals.openedition.org/belgeo/57360</oaire:file>
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_16ec" mimeType="application/tei+xml" objectType="fulltext">https://journals.openedition.org/belgeo/tei.57360</oaire:file>
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_16ec" mimeType="application/tei+xml" objectType="fulltext">https://journals.openedition.org/belgeo/basictei/57360</oaire:file>
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf" objectType="fulltext">https://journals.openedition.org/belgeo/pdf/57360</oaire:file>
+
+
+**Example (blog post):** 
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11sem&metadataPrefix=oai_openaire
+
+.. code-block:: xml
+    :linenos:
+
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_abf2" mimeType="text/html" objectType="fulltext">https://sms.hypotheses.org/43068</oaire:file>
+
+
+
+18. oaire:citationTitle
 --------------------------
 
 - For OpenEdition Journals, Hypotheses, Calenda ``oaire:citationTitle`` contains the Title of the journal, blog, site.
 - For OpenEdition Books (for chapters) ``oaire:citationTitle`` contains the Title of the book.
 
 **Example (journal article):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d8ae&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -461,20 +501,20 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1i54&metadat
     <oaire:citationTitle>Belgeo</oaire:citationTitle>
 
 **Example (book chapter):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11qip&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11qip&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
 
     <oaire:citationTitle>Between Lines and Notarial Marks</oaire:citationTitle>
 
-18. oaire:citationVolume
+19. oaire:citationVolume
 --------------------------
 
 - For OpenEdition Journals ``oaire:citationVolume`` contains the volume of the issue.
 
 **Example (journal article):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -482,13 +522,13 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/1i54&metadat
     <oaire:citationVolume>4</oaire:citationVolume>
 
 
-19. oaire:citationIssue
+20. oaire:citationIssue
 --------------------------
 
 - For OpenEdition Journals ``oaire:citationIssue`` contains the issue of the issue.
 
 **Example (journal article):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jry1&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jry1&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -498,13 +538,13 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jry1&metadat
 
 
 
-20. oaire:citationStartPage / oaire:citationEndPage
+21. oaire:citationStartPage / oaire:citationEndPage
 --------------------------------------------------------
 
 - For OpenEdition Journals and OpenEdition Books; ``oaire:citationStartPage`` and ``oaire:citationEndPage`` contains the pagination.
 
 **Example (journal article):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jry1&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jry1&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -512,13 +552,13 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/jry1&metadat
     <oaire:citationStartPage>223</oaire:citationStartPage>
     <oaire:citationEndPage>230</oaire:citationEndPage>
 
-21. datacite:geoLocation
+22. datacite:geoLocation
 --------------------------------------------------------
 
 - Geolocalisation for Calenda events
 
 **Example (Calenda event):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11pm5&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11pm5&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
@@ -529,26 +569,26 @@ https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11pm5&metada
       </datacite:geoLocation>
     </datacite:geoLocations>
 
-22. oaire:citationConferencePlace
+23. oaire:citationConferencePlace
 --------------------------------------------------------
 
 - Calenda events : Conference place
 
 **Example (Calenda event):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11pm5&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11pm5&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
 
     <oaire:citationConferencePlace>Aix-en-Provence</oaire:citationConferencePlace>
 
-23. oaire:citationConferenceDate
+24. oaire:citationConferenceDate
 --------------------------------------------------------
 
 - Calenda events : Conference date
 
 **Example (Calenda event):** 
-https://oai.openedition.org/?verb=GetRecord&identifier=20.500.13089/11pm5&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11pm5&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:
