@@ -447,6 +447,9 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1i5
 
     <oaire:licenseCondition uri="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</oaire:licenseCondition>
 
+.. _oairefile:
+
+
 17. oaire:file
 ---------------------------
 
@@ -471,7 +474,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d8a
     :linenos:
 
     <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_abf2" mimeType="text/html" objectType="fulltext">https://journals.openedition.org/belgeo/57360</oaire:file>
-    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_16ec" mimeType="application/tei+xml" objectType="fulltext">https://journals.openedition.org/belgeo/tei.57360</oaire:file>
+    <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_16ec" mimeType="application/tei+xml" objectType="fulltext">https://journals.openedition.org/belgeo/tei/57360</oaire:file>
     <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_16ec" mimeType="application/tei+xml" objectType="fulltext">https://journals.openedition.org/belgeo/basictei/57360</oaire:file>
     <oaire:file accessRightsURI="http://purl.org/coar/access_right/c_abf2" mimeType="application/pdf" objectType="fulltext">https://journals.openedition.org/belgeo/pdf/57360</oaire:file>
 
