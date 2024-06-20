@@ -208,7 +208,7 @@ https://oai.openedition.org/?verb=GetRecord&identifier=oai:books.openedition.org
 ^^^^^^^^^^^^^^^^^^^^^^
 Available for all platforms. 
 
-``dc:type`` provides the document type according to the list of types available in this section: :ref:`types`. 
+``dc:type`` provides the document type according to the list of types available in this section: :ref:`types_v1`. 
 
 **Example:** 
 https://oai.openedition.org/?verb=GetRecord&identifier=oai:revues.org:lectures/27329&metadataPrefix=oai_dc

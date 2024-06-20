@@ -17,7 +17,7 @@ Records are available in the following metadata formats:
 
 The METS format is available only for journal issues and books. It is not available for blogs, Calenda events, and electronic journals publishing streamed articles.
 
-.. _tei:
+.. _tei_v1:
 
 TEI full text and Raw full text for partners
 ------------------------------------------------------
