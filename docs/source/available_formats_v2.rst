@@ -24,7 +24,7 @@ Records are available in the following metadata formats:
 
 The METS format is available only for journal issues and books. It is not available for blogs, Calenda events.
 
-_tei_v2:
+.. _tei_v2:
 
 TEI full text and Raw full text for partners
 ------------------------------------------------------
@@ -32,6 +32,8 @@ TEI full text and Raw full text for partners
 .. note :: Access to Full text in TEI and Raw text format is only available for authorized IP address (OpenEdition partners)
 
 OpenEdition provide partners an access to full text in TEI (`Text Encoding Initiative <http://www.tei-c.org/>`_) format and Raw text format for documents published on OpenEdition Journals and OpenEdition Books. 
+
+The TEI format is currently only available for OpenEditon Journals. We are working on implementing it for OpenEdition Books.
 
 Link to TEI structured full text and to Raw text (actually BASICTEI format) is retrivable from OAI in ``oai_openaire`` format, following the url available in 2 elements ``<oaire:file mimeType="application/tei+xml">``
 
@@ -45,7 +47,7 @@ If you need access to OpenEdition’s TEI as a partner, please email us at conta
 
 **Example**
 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d8ae&metadataPrefix=oai_openaire
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/d8ae&metadataPrefix=oai_openaire
 
 .. code-block:: xml
     :linenos:

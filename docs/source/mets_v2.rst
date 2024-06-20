@@ -14,7 +14,7 @@ The ``mets`` (Metadata Encoding and Transmission Standard) format is available f
 
 The ``mets`` format is documented on the Library of Congress website: http://www.loc.gov/standards/mets/.
 
-The list of available records in mets format can be found through OAI: https://metadata.openedition.org/oai2?verb=ListIdentifiers&metadataPrefix=mets (use :ref:`rToken_v2` to retrieve the complete list).
+The list of available records in mets format can be found through OAI: https://metadata.openedition.org/oai?verb=ListIdentifiers&metadataPrefix=mets (use :ref:`rToken_v2` to retrieve the complete list).
 
 In OpenEdition OAI, a ``mets`` record is divided into 3 main parts : one ``mets:structMap``, one ``mets:fileSec`` and several ``mets:dmdSec``.
 
@@ -35,7 +35,7 @@ The ``mets:structMap`` element describes the tree structure of the volume.
 
 Each ``mets:div`` element refering to a document file have one or several ``mets:fptr`` child element, with a ``FILEID`` refer to the ``ID`` of the relevant ``mets:file`` element.
 
-**example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11qs2&metadataPrefix=mets
+**example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11qs2&metadataPrefix=mets
 
 .. code-block:: xml
     :linenos:
@@ -73,7 +73,7 @@ The ``mets:file`` element have a child node ``mets:FLocat`` with an attribute ``
 
 .. note :: ``mets:structMap/mets:div/mets:fptr/@FILEID`` match ``mets:fileSec/mets:fileGrp/mets:file/@ID``
 
-**example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11qs2&metadataPrefix=mets
+**example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11qs2&metadataPrefix=mets
 
 .. code-block:: xml
     :linenos:
@@ -103,7 +103,7 @@ The ``mets:dmdSec`` have an ``ID`` attribute matching the ``DMDID`` of ``mets:di
 
 .. note :: ``mets:structMap/mets:div/@DMDID`` match ``mets:mets/mets:dmdSec/@ID``
 
-**example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11qs2&metadataPrefix=mets
+**example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11qs2&metadataPrefix=mets
 
 .. code-block:: xml
     :linenos:

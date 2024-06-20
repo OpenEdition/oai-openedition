@@ -28,7 +28,7 @@ Identifier of the document. Repeatable.
 - The Handle identifier is also used as OAI-PMH identifier ``record/header/identifier``
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -45,7 +45,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsa
 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -60,7 +60,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsa
 - All records have an URL.
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -74,7 +74,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsa
 - Available for books (OpenEdition Books) and journals issues (OpenEdition Journals).
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o4&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/31o4&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -92,7 +92,7 @@ Title of the document. Non-repeatable.
 - Author(s), scientific and academic editor of the document. Repeatable.
 
 **Example of a book:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o8&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/31o8&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -101,7 +101,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o
 
 For archeological note, ``dc:creator`` may also contain archaeological project directors.
 
-**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/9xim&metadataPrefix=oai_dc
+**Example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/9xim&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -115,7 +115,7 @@ For archeological note, ``dc:creator`` may also contain archaeological project d
 
 - Other contributors: translators, collaborators (For archeological note and article). 
 
-**Example (translator):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/k5wx&metadataPrefix=oai_dc
+**Example (translator):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/k5wx&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -123,7 +123,7 @@ For archeological note, ``dc:creator`` may also contain archaeological project d
     <dc:contributor>Mannoni, Olivier</dc:contributor>
 
 
-**Example (collaborators):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/9wrn&metadataPrefix=oai_dc
+**Example (collaborators):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/9wrn&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -159,7 +159,7 @@ For archeological note, ``dc:creator`` may also contain archaeological project d
 * Available for all records.
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -178,7 +178,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1i5
 - For OpenEdition Journals, and according to `OpenAIRE 3.0 guidelines (Embargo End Date) <https://guidelines.openaire.eu/en/latest/literature/field_embargoenddate.html#dc-date-embargo>`_, if ``dc:rights = "info:eu-repo/semantics/embargoedAccess"``, then an extra ``dc.date`` element with a prefix ``info:eu-repo/date/embargoEnd/`` will provide the end date of embargo (availability date of the document in open access):
 
 **Example (book published in 1990, published on OpenEditon Books on 28/08/2022):** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/5div&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/5div&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -187,7 +187,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/5di
     <dc:date>info:eu-repo/date/publication/2022-08-28</dc:date>	
 
 **Example (journal article with embargoed access):** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/k213&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/k213&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -204,7 +204,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/k21
 - ``dc:publisher`` provides the publisher name. Repeatable.
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1x9t&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/1x9t&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -217,7 +217,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1x9
 - Document language. RFC1766 format. 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1x9t&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/1x9t&metadataPrefix=oai_dc
 
 
 .. code-block:: xml
@@ -239,7 +239,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1x9
 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r0i&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11r0i&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -262,7 +262,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 * Available for all records. 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/hpx1&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/hpx1&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -276,7 +276,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/hpx
 - ``dc:subject`` may contains keywords. In this case, an ``xml:lang`` attribute specifies the language of the keyword.
 - Available for OpenEdition Journals, OpenEdition Books and Calenda.
 
-**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=oai_dc
+**Example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -302,7 +302,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/hpx
 
 ``dc:description`` contains abstracts of the document if available, an excerpt (usualy the first lines) otherwise. Abstacts may be available in several languages. In this case, and ``xml:lang`` attribute specifies the language of the description.
 
-**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/l8zw&metadataPrefix=oai_dc
+**Example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/l8zw&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -324,7 +324,7 @@ For chapters published in a book and articles published in a journal issue :
 - ``dc.relation`` element with a prefixe ``info:eu-repo/semantics/altIdentifier/isbn/`` provides the online and print ISBN of the parent book or journal issue.
 
 
-**Example (journal article):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/gh7p&metadataPrefix=oai_dc
+**Example (journal article):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/gh7p&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -333,7 +333,7 @@ For chapters published in a book and articles published in a journal issue :
     <dc:relation>info:eu-repo/semantics/reference/issn/1960-601X</dc:relation>
 
 
-**Example (book chapter):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/7kfl&metadataPrefix=oai_dc
+**Example (book chapter):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/7kfl&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:
@@ -349,7 +349,7 @@ For chapters published in a book and articles published in a journal issue :
 
 - mime type of all records is ``text/html``
 
-**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=oai_dc
+**Example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=oai:revues.org:geocarrefour/10121&metadataPrefix=oai_dc
 
 .. code-block:: xml
     :linenos:

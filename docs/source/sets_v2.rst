@@ -40,8 +40,8 @@ From OAI ListSets
 ^^^^^^^^^^^^^^^^^^^
 The complete list of Sets is available in the repository using the OAI verb ``ListSets``. The repository displays 100 sets per page. Use the ``resumptionToken`` parameter to display the next page. 
 
-* https://metadata.openedition.org/oai2?verb=ListSets
-* https://metadata.openedition.org/oai2?verb=ListSets&resumptionToken=cursor%3D100%26cursorMark%3DAoEnT0oucmllZg%3D%3D
+* https://metadata.openedition.org/oai?verb=ListSets
+* https://metadata.openedition.org/oai?verb=ListSets&resumptionToken=cursor%3D100%26cursorMark%3DAoEnT0oucmllZg%3D%3D
 
 
 From publication URL
@@ -68,17 +68,17 @@ Set = ``journals:[journalID]``
 Sample queries
 -------------------
 
-* https://metadata.openedition.org/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=journals
-* https://metadata.openedition.org/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=books
-* https://metadata.openedition.org/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=blogs
-* https://metadata.openedition.org/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=events
-* https://metadata.openedition.org/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=openaire
+* https://metadata.openedition.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=journals
+* https://metadata.openedition.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=books
+* https://metadata.openedition.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=blogs
+* https://metadata.openedition.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=events
+* https://metadata.openedition.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=openaire
 
 --------------------------------------
 
-* https://metadata.openedition.org/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=journals:ejpap
-* https://metadata.openedition.org/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=books:pur
-* https://metadata.openedition.org/oai2?verb=ListRecords&metadataPrefix=oai_dc&set=blogs:histoirebnf
+* https://metadata.openedition.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=journals:ejpap
+* https://metadata.openedition.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=books:pur
+* https://metadata.openedition.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=blogs:histoirebnf
 
 
 

@@ -7,7 +7,7 @@ The OpenEdition OAI-PMH repository provides metadata of the documents published 
 
 .. note::
 
-    The version 2 beta of the OAI-PMH repository is available at https://metadata.openedition.org/oai2
+    The version 2 beta of the OAI-PMH repository is available at https://metadata.openedition.org/oai
 
     The documentation is available at :ref:`OAI v2 beta / Main principles <main_principles_v2>`.
 

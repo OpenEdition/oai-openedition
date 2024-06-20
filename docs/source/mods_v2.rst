@@ -28,7 +28,7 @@ The ``mods`` format provides the following elements, according to  `Metadata Obj
 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -45,7 +45,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsa
 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -59,7 +59,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsa
 - Available for books (OpenEdition Books) and journals issues (OpenEdition Journals).
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o4&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/31o4&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -75,7 +75,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o
 - Available for all records. 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/jsak&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -94,7 +94,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/jsa
 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/gd0i&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/gd0i&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -126,7 +126,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/gd0
 - For Hypotheses blog posts, there is no distinction.
 
 **Example of a book:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o8&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/31o8&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -141,7 +141,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/31o
 
 
 **Example of a blog post:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r1e&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11r1e&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -165,7 +165,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r0i&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11r0i&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -178,7 +178,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 - Document language. Repeatable
 
 **Example:** 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r0i&metadataPrefix=mods
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11r0i&metadataPrefix=mods
 
 
 .. code-block:: xml
@@ -198,7 +198,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 - ``mods:accessCondition`` with attribute ``type="restriction on access"`` provides the access right of the document according to the list of types available at http://purl.org/coar/access_right/. ``ValueURI`` attribute precise the term URI. 
 - Available for all records. 
 
-**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=mods
+**Example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -212,7 +212,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 - 
 - Available for all records.
 
-**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=mods
+**Example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/1i54&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -225,7 +225,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 
 ``mods:abstract`` contains abstracts of the document if available, an excerpt (usualy the first lines) otherwise (attribute ``type="excerpt"``). Abstacts may be available in several languages. In this case, and ``xml:lang`` attribute specifies the language of the description.
 
-**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/l8zw&metadataPrefix=mods
+**Example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/l8zw&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -240,7 +240,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 - ``mods:subject`` contains keywords. An ``xml:lang`` attribute specifies the language of the keyword.
 - Available for OpenEdition Journals and OpenEdition Books and Calenda. 
 
-**Example:** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=mods
+**Example:** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -288,7 +288,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - For books, ``mods.place`` provides the publication place.
 
-**Example (Journal article):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=mods
+**Example (Journal article):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/d85h&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -301,7 +301,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
     </mods:originInfo>
 
 
-**Example (Journal article with embargo):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/k213&metadataPrefix=mods
+**Example (Journal article with embargo):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/k213&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -315,7 +315,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
       <mods:publisher>ENS Éditions</mods:publisher>
     </mods:originInfo>
 
-**Example (Book):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/5div&metadataPrefix=mods
+**Example (Book):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/5div&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -368,7 +368,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
 - For journal articles ``mods:part`` provides also the volume, issue, as shown in the example below..
 
 
-**Example (Journal article):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/gioa&metadataPrefix=mods
+**Example (Journal article):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/gioa&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -397,7 +397,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
     </mods:relatedItem>
 
 
-**Example (Book chapter):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11ppk&metadataPrefix=mods
+**Example (Book chapter):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11ppk&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -419,7 +419,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
       </mods:part>
     </mods:relatedItem>
 
-**Example (Blog post):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11sem&metadataPrefix=mods
+**Example (Blog post):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11sem&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:
@@ -431,7 +431,7 @@ https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11r
       <mods:identifier type="eissn" typeURI="http://id.loc.gov/vocabulary/identifiers/issn">2428-1387</mods:identifier>
     </mods:relatedItem>
 
-**Example (Calenda event):** https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/11pm5&metadataPrefix=mods
+**Example (Calenda event):** https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11pm5&metadataPrefix=mods
 
 .. code-block:: xml
     :linenos:

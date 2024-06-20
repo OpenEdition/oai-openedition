@@ -120,7 +120,7 @@ OAI-PMH Identifiers
 
 Example:
 
-https://metadata.openedition.org/oai2?verb=GetRecord&identifier=20.500.13089/k1x3&metadataPrefix=oai_dc returns:
+https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/k1x3&metadataPrefix=oai_dc returns:
 
 
 .. code-block:: xml
@@ -144,7 +144,7 @@ The repository supports the notion of deleted records. Deleted records are persi
 
 
 Example: 
-https://metadata.openedition.org/oai2?verb=ListRecords&set=journals:ges&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai?verb=ListRecords&set=journals:ges&metadataPrefix=oai_dc
 
 
 .. code-block:: xml
@@ -152,7 +152,7 @@ https://metadata.openedition.org/oai2?verb=ListRecords&set=journals:ges&metadata
 
     <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
       <responseDate>2024-06-10T06:24:24Z</responseDate>
-      <request verb="ListRecords" set="journals:ges" metadataPrefix="oai_dc" cursor="0">https://metadata.openedition.org/oai2</request>
+      <request verb="ListRecords" set="journals:ges" metadataPrefix="oai_dc" cursor="0">https://metadata.openedition.org/oai</request>
       <ListRecords>
         <record>
           [...]
@@ -179,8 +179,8 @@ The repository allows selective harvesting, by set and by date.
 Selective harvesting by set
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* For retrieving the document metadata from the Publications de l’École française de Rome only, you will have to query the ``books:efr`` set: https://metadata.openedition.org/oai2/?verb=ListRecords&metadataPrefix=oai_dc&set=books:efr
-* For retrieving metadata from all OpenEdition Journals documents, you will have to query the ``journals`` set: https://metadata.openedition.org/oai2/?verb=ListRecords&metadataPrefix=oai_dc&set=journals
+* For retrieving the document metadata from the Publications de l’École française de Rome only, you will have to query the ``books:efr`` set: https://metadata.openedition.org/oai/?verb=ListRecords&metadataPrefix=oai_dc&set=books:efr
+* For retrieving metadata from all OpenEdition Journals documents, you will have to query the ``journals`` set: https://metadata.openedition.org/oai/?verb=ListRecords&metadataPrefix=oai_dc&set=journals
 
 
 More info about available sets: :ref:`sets_v2` 
@@ -195,7 +195,7 @@ The parameters to use are ``from`` and ``until``. Allowed date formats are ``dd-
 
 **Example**
 
-https://metadata.openedition.org/oai2/?verb=ListRecords&metadataPrefix=oai_dc&from=2017-03-13T16:47:48Z will retrieve a list of records added or updated since the 13 march 2017 at 4.47 pm.
+https://metadata.openedition.org/oai/?verb=ListRecords&metadataPrefix=oai_dc&from=2017-03-13T16:47:48Z will retrieve a list of records added or updated since the 13 march 2017 at 4.47 pm.
 
 .. _rToken_v2:
 
@@ -206,7 +206,7 @@ The repository uses the `resumptionToken <http://www.openarchives.org/OAI/openar
 
 For instance, for retrieving the metadata of all documents from the journal Revista Crítica de Ciências Sociais, you will use the query:
 
-https://metadata.openedition.org/oai2/?verb=ListRecords&set=journals:rccs&metadataPrefix=oai_dc
+https://metadata.openedition.org/oai/?verb=ListRecords&set=journals:rccs&metadataPrefix=oai_dc
 
 The repository will return a list of the first 100 documents + a ``resumptionToken`` element at the end of the response.
 
@@ -216,7 +216,7 @@ The repository will return a list of the first 100 documents + a ``resumptionTok
     <?xml version="1.0" encoding="UTF-8"?>
     <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
       <responseDate>2024-06-09T19:39:32Z</responseDate>
-      <request verb="ListRecords" set="journals:rccs" metadataPrefix="oai_dc" cursor="0">https://metadata.openedition.org/oai2</request>
+      <request verb="ListRecords" set="journals:rccs" metadataPrefix="oai_dc" cursor="0">https://metadata.openedition.org/oai</request>
       <ListRecords>
         <record>
           [...]
@@ -232,7 +232,7 @@ The repository will return a list of the first 100 documents + a ``resumptionTok
 
 For retrieving the next 10 documents, you will pass the content of the ``resumptionToken`` element as an argument of a new URL request:
 
-https://metadata.openedition.org/oai2?verb=ListRecords&resumptionToken=set%3Djournals%3Arccs%26metadataPrefix%3Doai_dc%26cursor%3D100%26cursorMark%3DAoErT0oucmNjcy44NjI%3D
+https://metadata.openedition.org/oai?verb=ListRecords&resumptionToken=set%3Djournals%3Arccs%26metadataPrefix%3Doai_dc%26cursor%3D100%26cursorMark%3DAoErT0oucmNjcy44NjI%3D
 and so on.
 
 
