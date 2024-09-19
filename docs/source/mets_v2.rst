@@ -97,7 +97,7 @@ The ``mets:file`` element have a child node ``mets:FLocat`` with an attribute ``
 3. mets:dmdSec
 --------------------------
 
-Each ``mets:div`` element used in the ``mets:strucMap`` is described in a ``mets:dmdSec`` (Descriptive Metadata Section) in dcterms. The metadata provided are the same as the metadata provided in :ref:`mods_v2`
+Each ``mets:div`` element used in the ``mets:strucMap`` is described in a ``mets:dmdSec`` (Descriptive Metadata Section) in mods. The metadata provided are the same as the metadata provided in :ref:`mods_v2`
 
 The ``mets:dmdSec`` have an ``ID`` attribute matching the ``DMDID`` of ``mets:div`` elements available in ``mets:structMap``.
 
