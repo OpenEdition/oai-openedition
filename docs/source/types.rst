@@ -3,6 +3,12 @@
 Document types
 ===================
 
+
+.. warning::
+
+   Version 1 of the OAI-PMH repository is DEPRECIATED. Please refer to the warning on the :ref:`home page <home>`.
+
+
 Used in the :ref:`oai_dc <dctype>`, :ref:`qdc <dctermstype>` and :ref:`mets <metsstructmap_v1>` formats, the document types are normalised as follow: 
 
 

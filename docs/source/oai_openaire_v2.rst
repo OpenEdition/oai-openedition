@@ -1,15 +1,7 @@
 .. _oai_openaire_v2:
 
-oai_openaire format (v2 beta)
+oai_openaire format
 ========================================
-
-.. warning::
-
-      This documentation concerns version 2 beta of the OpenEdition OAI-PMH repository. This version is subject to change until version 2.0 is released. 
-
-      **NOT FOR USE IN PRODUCTION**
-
-
 
 .. contents:: Table of Contents
    :depth: 2

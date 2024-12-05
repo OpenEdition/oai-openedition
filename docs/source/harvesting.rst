@@ -1,6 +1,12 @@
 Harvesting
 ======================
 
+.. warning::
+
+   Version 1 of the OAI-PMH repository is DEPRECIATED. Please refer to the warning on the :ref:`home page <home>`.
+
+
+
 .. contents:: Table of Contents
    :depth: 2
 

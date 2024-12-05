@@ -1,13 +1,7 @@
 .. _formats_v2:
 
-Available Formats (v2 beta)
+Available Formats
 =====================================
-.. warning::
-
-      This documentation concerns version 2 beta of the OpenEdition OAI-PMH repository. This version is subject to change until version 2.0 is released. 
-
-      **NOT FOR USE IN PRODUCTION**
-
 
 .. contents:: Table of Contents
    :depth: 2
@@ -42,7 +36,7 @@ Link to TEI structured full text and to Raw text (actually BASICTEI format) is r
 
 More information in detailed documentation of :ref:`oaire:file <oairefile>`.
 
-If you need access to OpenEdition’s TEI as a partner, please email us at contact+oai@openedition.org.
+If you need access to OpenEdition’s TEI as a partner, please email us at referencement@openedition.org.
 
 
 **Example**
