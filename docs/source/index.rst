@@ -13,7 +13,7 @@ The OpenEdition OAI-PMH repository provides metadata of the documents published 
 
     https://metadata.openedition.org/oai
 
-    A brief description of the repositopry is available at :ref:`OAI v2 / Main principles <main_principles_v2>`.
+    A brief description of the repository is available at :ref:`OAI v2 / Main principles <main_principles_v2>`.
 
 
 .. warning::
