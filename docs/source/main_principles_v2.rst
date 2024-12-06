@@ -1,14 +1,7 @@
 .. _main_principles_v2:
 
-Main Principles (v2 beta)
+Main Principles
 ==================================
-
-.. warning::
-
-      This documentation concerns version 2 beta of the OpenEdition OAI-PMH repository. This version is subject to change until version 2.0 is released. 
-
-      **NOT FOR USE IN PRODUCTION**
-
 
 .. contents:: Table of Contents
    :depth: 2
@@ -30,12 +23,12 @@ The OpenEdition repository follows the version 2.0 of the OAI-PMH protocol avail
         * ``mods``: `Metadata Object Description Schema <https://www.loc.gov/standards/mods/>`_ 
         * ``mets``: `Metadata Encoding and Transmission Standard <https://www.loc.gov/standards/mets/>`_
 
-      What's next?
+      Migration steps from v1 to v2
 
-      - v2 beta will be tested by partners.
-      - v2.0 will be released and will be usable in production environment.
-      - v1 and v2 will continue to run in parallel for several months, while harvesters upgrade to version 2.
-      - v1 will be removed
+      - june-october 2024: OpenEdition OAI-PMH v2 is tested by partners.
+      - november 2024: v2.0 is released and usable in production environment. v1 is declared Deprecated.
+      - november 2024-june 2025: v1 and v2 continue to run in parallel, while harvesters upgrade to version 2.
+      - june 2025: v1 is removed.
 
 
 .. _oe_identifier:

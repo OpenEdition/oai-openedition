@@ -1,15 +1,7 @@
 .. _oai_dc_v2:
 
-oai_dc format (v2 beta)
+oai_dc format 
 ========================================
-
-.. warning::
-
-      This documentation concerns version 2 beta of the OpenEdition OAI-PMH repository. This version is subject to change until version 2.0 is released. 
-
-      **NOT FOR USE IN PRODUCTION**
-
-
 
 .. contents:: Table of Contents
    :depth: 2
@@ -135,7 +127,7 @@ For archeological note, ``dc:creator`` may also contain archaeological project d
 
 
 
-.. _dcrights:
+.. _dcrights_v2:
 
 5. dc:rights
 -----------------

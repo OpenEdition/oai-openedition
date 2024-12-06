@@ -1,6 +1,6 @@
 Need help ? 
 ============================================
 
-Please email us: contact+oai@openedition.org
+Please email us: referencement@openedition.org
 
 

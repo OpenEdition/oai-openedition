@@ -1,6 +1,12 @@
 OAI_DC format
 ===================
 
+
+.. warning::
+
+   Version 1 of the OAI-PMH repository is DEPRECIATED. Please refer to the warning on the :ref:`home page <home>`.
+
+
 .. contents:: Table of Contents
    :depth: 2
 
@@ -61,7 +67,6 @@ For archeological note and article, ``dc:contributor`` may also contain collabor
     <dc:contributor>Caillat, Pierre</dc:contributor>
 
 See https://journals.openedition.org/archeomed/11348?lang=en for roles of each ``dc:contributor``.
-
 
 .. _dcrights:
 

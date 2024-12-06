@@ -1,14 +1,7 @@
 .. _mods_v2:
 
-mods format (v2 beta)
+mods format
 ========================================
-
-.. warning::
-
-      This documentation concerns version 2 beta of the OpenEdition OAI-PMH repository. This version is subject to change until version 2.0 is released. 
-
-      **NOT FOR USE IN PRODUCTION**
-
 
 
 .. contents:: Table of Contents
