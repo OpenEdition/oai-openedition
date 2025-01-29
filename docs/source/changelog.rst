@@ -1,9 +1,19 @@
 Changelog 
 ============================================
 
+2025-01-28
+
+Release 2.0.1
+
+* ``oai_openaire`` format: update  ``datacite:identifier@identifierType`` attribute value to ``datacite:identifier@identifierType="HANDLE"`` (was ``datacite:identifier@identifierType="Handle"``)
+* remove invalid ``request@cursor`` attribute
+* remove invalid extra ``request`` attribute when ``@resumptionToken`` is used
+* fix ``resumptionToken`` value: avoid characters ``&``, ``=``
+* fix incorrect error messages (GetRecord -> barArgument)
+
 2024-11-20
 
-* OAI-PMH v2 is released to 2.0
+* OAI-PMH v2 is released to 2.0.0
 * OAI-PMH v1 is declared as deprecated
 
 

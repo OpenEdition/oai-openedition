@@ -21,7 +21,7 @@ https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/jsak
 .. code-block:: xml
     :linenos:
 
-    <datacite:identifier identifierType="Handle">20.500.13089/jsak</datacite:identifier>
+    <datacite:identifier identifierType="HANDLE">20.500.13089/jsak</datacite:identifier>
 
 
 2. datacite:title
