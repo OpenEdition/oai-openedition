@@ -9,7 +9,7 @@ Release 2.0.1
 * remove invalid ``request@cursor`` attribute
 * remove invalid extra ``request`` attribute when ``@resumptionToken`` is used
 * fix ``resumptionToken`` value: avoid characters ``&``, ``=``
-* fix incorrect error messages (GetRecord -> barArgument)
+* fix incorrect error messages (GetRecord -> badArgument)
 
 2024-11-20
 
