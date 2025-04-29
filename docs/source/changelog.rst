@@ -3,6 +3,16 @@
 Changelog 
 ============================================
 
+**2025-04-29**
+
+*Release 2.1.0*
+
+* add Person Identifiers if available (IdRef, Orcid, Isni, Viaf, BNF):
+
+  * ``mods``: ``name/nameIdentifier`` element 
+  * ``oai_openaire``: ``creator/nameIdentifier`` and  ``contributor/nameIdentifier`` 
+
+
 **2025-02-14**
 
 *Release 2.0.2*

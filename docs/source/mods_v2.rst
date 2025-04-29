@@ -116,6 +116,15 @@ https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/gd0i
   - ``orm``: Organizer
 
 - For OpenEdition Journals, OpenEdition Books and Calenda, given name (``mods:namePart[@type="given"]``) and family name (``mods:namePart[@type="family"]``) are distincts.
+- For OpenEdition Journals, OpenEdition Books and Calenda, person Identifiers are provided if available:
+
+  -  IdRef: ``mods:nameIdentifier[@type="idref"]``
+  -  Orcid: ``mods:nameIdentifier[@type="orcid"]``
+  -  Isni: ``mods:nameIdentifier[@type="isni"]``
+  -  Viaf: ``mods:nameIdentifier[@type="viaf"]``
+  -  Bnf: ``mods:nameIdentifier[@type="bnf"]``
+
+
 - For Hypotheses blog posts, there is no distinction.
 
 **Example of a book:** 
@@ -130,6 +139,37 @@ https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/31o8
       </mods:role>
       <mods:namePart type="given">Stefan</mods:namePart>
       <mods:namePart type="family">Groth</mods:namePart>
+    </mods:name>
+
+
+**Example of a journal article with person Identifiers:** 
+https://metadata.openedition.org/oai?verb=GetRecord&metadataPrefix=mods&identifier=20.500.13089/k1oc
+
+.. code-block:: xml
+    :linenos:
+
+    <mods:name type="personal">
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" >aut</mods:roleTerm>
+      </mods:role>
+      <mods:namePart type="given">Dupriez</mods:namePart>
+      <mods:namePart type="family">Vincent</mods:namePart>
+      <mods:nameIdentifier type="idref" typeURI="http://id.loc.gov/vocabulary/identifiers/idref">088067882</mods:nameIdentifier>
+      <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0002-0714-7318</mods:nameIdentifier>
+      <mods:nameIdentifier type="isni" typeURI="http://id.loc.gov/vocabulary/identifiers/isni">0000000119368823</mods:nameIdentifier>
+      <mods:nameIdentifier type="viaf" typeURI="http://id.loc.gov/vocabulary/identifiers/viaf">81031688</mods:nameIdentifier>
+      <mods:nameIdentifier type="bnf" typeURI="http://data.bnf.fr">ark:/12148/cb150098665</mods:nameIdentifier>
+    </mods:name>
+    <mods:name type="personal">
+      <mods:role>
+        <mods:roleTerm authority="marcrelator" >aut</mods:roleTerm>
+      </mods:role>
+      <mods:namePart type="given">Dumay</mods:namePart>
+      <mods:namePart type="family">Xavier</mods:namePart>
+      <mods:nameIdentifier type="idref" typeURI="http://id.loc.gov/vocabulary/identifiers/idref">121813843</mods:nameIdentifier>
+      <mods:nameIdentifier type="isni" typeURI="http://id.loc.gov/vocabulary/identifiers/isni">0000000077335977</mods:nameIdentifier>
+      <mods:nameIdentifier type="viaf" typeURI="http://id.loc.gov/vocabulary/identifiers/viaf">49559478</mods:nameIdentifier>
+      <mods:nameIdentifier type="bnf" typeURI="http://data.bnf.fr">ark:/12148/cb15856700n</mods:nameIdentifier>
     </mods:name>
 
 
