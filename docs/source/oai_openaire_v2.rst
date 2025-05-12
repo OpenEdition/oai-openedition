@@ -61,7 +61,7 @@ https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/gd0i
 - The attribute ``datacite:nameIdentifier[@schemeURI]`` provide the url of the resolver of the identifier. So Harvesters may build link to the resource.
 
   - Example: ``<datacite:nameIdentifier nameIdentifierScheme="BNF" schemeURI="https://ark.bnf.fr/" >ark:/12148/cb150098665</datacite:nameIdentifier>`` 
-  - Link to the resource: `https://ark.bnf.fr/ark:/12148/cb150098665`_
+  - Link to the resource: https://ark.bnf.fr/ark:/12148/cb150098665
 
 
 **Example of a book:** 

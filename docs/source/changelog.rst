@@ -5,7 +5,7 @@ Changelog
 
 **2025-05-12**
 
-*Release 2.1.1
+*Release 2.1.1*
 
 * fix ``ResumptionToken`` issue: urlencoded resumptionToken is now valid
 * ``oai_openaire``: ``creator/nameIdentifier@schemeUri`` and  ``contributor/nameIdentifier@schemeUri``: provide identifier resolver
