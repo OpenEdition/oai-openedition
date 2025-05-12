@@ -50,6 +50,33 @@ Handle and DOI
 - The DOI system covers 100% of documents for Hypotheses and Calenda and around 90% for OpenEdition Books and Journals
 - Since the OAI-PMH protocol needs identifiers for all records, the OAI-PMH identifier system is Handle.
 
+
+Information about Record Identifiers in ListSets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In ListSets, the ``dc:type`` provides the type of permanent identifiers available for the records of this Set.
+
+- All sets provide handle Idenfiers ``<dc:type>records:identifier:handle</dc:type>``
+- If DOI are available for records of this set (see previous chapter): ``<dc:type>records:identifier:doi</dc:type>``
+
+Example: https://metadata.openedition.org/oai?verb=ListSets
+
+.. code-block:: xml
+    :linenos:
+
+    <set>
+        <setSpec>journals:transalpina</setSpec>
+        <setName>Transalpina</setName>
+        <setDescription>
+            <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                <dc:type>records:identifier:doi</dc:type>
+                <dc:type>records:identifier:handle</dc:type>
+            </oai_dc:dc>
+        </setDescription>
+    </set>
+
+
+
 Retrieving Handle, DOI and URL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

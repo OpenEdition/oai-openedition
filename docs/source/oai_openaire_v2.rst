@@ -50,6 +50,7 @@ https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/gd0i
 -------------------------
 - Author(s), scientific and academic editor, archaeological project director. Repeatable.
 - For OpenEdition Journals, OpenEdition Books and Calenda, ``givenName`` and ``familyName`` are distincts.
+- For Hypotheses blog posts, there is no distinction.
 - For OpenEdition Journals, OpenEdition Books and Calenda, person Identifiers are provided if available:
 
   -  IdRef: ``datacite:nameIdentifier[@nameIdentifierScheme="IDREF"]``
@@ -57,8 +58,11 @@ https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/gd0i
   -  Isni: ``datacite:nameIdentifier[@nameIdentifierScheme="ISNI"]``
   -  Viaf: ``datacite:nameIdentifier[@nameIdentifierScheme="VIAF"]``
   -  Bnf: ``datacite:nameIdentifier[@nameIdentifierScheme="BNF"]``
+- The attribute ``datacite:nameIdentifier[@schemeURI]`` provide the url of the resolver of the identifier. So Harvesters may build link to the resource.
 
-- For Hypotheses blog posts, there is no distinction.
+  - Example: ``<datacite:nameIdentifier nameIdentifierScheme="BNF" schemeURI="https://ark.bnf.fr/" >ark:/12148/cb150098665</datacite:nameIdentifier>`` 
+  - Link to the resource: `https://ark.bnf.fr/ark:/12148/cb150098665`_
+
 
 **Example of a book:** 
 https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/31o8&metadataPrefix=oai_openaire
@@ -86,20 +90,20 @@ https://metadata.openedition.org/oai?verb=GetRecord&metadataPrefix=oai_openaire&
         <datacite:creatorName nameType="Personal" >Dupriez, Vincent</datacite:creatorName>
         <datacite:givenName>Dupriez</datacite:givenName>
         <datacite:familyName>Vincent</datacite:familyName>
-        <datacite:nameIdentifier nameIdentifierScheme="IDREF" schemeURI="http://idref.fr" >088067882</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org" >0000-0002-0714-7318</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="http://isni.org" >0000000119368823</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="VIAF" schemeURI="http://viaf.org" >81031688</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="BNF" schemeURI="http://bnf.fr" >ark:/12148/cb150098665</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="IDREF" schemeURI="https://idref.fr/" >088067882</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/" >0000-0002-0714-7318</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="https://isni.org/" >0000000119368823</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org/viaf/" >81031688</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="BNF" schemeURI="https://ark.bnf.fr/" >ark:/12148/cb150098665</datacite:nameIdentifier>
       </datacite:creator>
       <datacite:creator>
         <datacite:creatorName nameType="Personal" >Dumay, Xavier</datacite:creatorName>
         <datacite:givenName>Dumay</datacite:givenName>
         <datacite:familyName>Xavier</datacite:familyName>
-        <datacite:nameIdentifier nameIdentifierScheme="IDREF" schemeURI="http://idref.fr" >121813843</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="http://isni.org" >0000000077335977</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="VIAF" schemeURI="http://viaf.org" >49559478</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="BNF" schemeURI="http://bnf.fr" >ark:/12148/cb15856700n</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="IDREF" schemeURI="https://idref.fr/" >121813843</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="https://isni.org/" >0000000077335977</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org/viaf/" >49559478</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="BNF" schemeURI="https://ark.bnf.fr/" >ark:/12148/cb15856700n</datacite:nameIdentifier>
       </datacite:creator>
     </datacite:creators>
 
@@ -174,9 +178,9 @@ https://metadata.openedition.org/oai?verb=GetRecord&identifier=20.500.13089/11r1
         <datacite:creatorName nameType="Personal">Rué, Mathieu</datacite:creatorName>
         <datacite:givenName>Mathieu</datacite:givenName>
         <datacite:familyName>Rué</datacite:familyName>
-        <datacite:nameIdentifier nameIdentifierScheme="IDREF" schemeURI="http://idref.fr" >24298276X</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org" >0000-0001-7948-9459</datacite:nameIdentifier>
-        <datacite:nameIdentifier nameIdentifierScheme="VIAF" schemeURI="http://viaf.org" >1542159234530503371916</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="IDREF" schemeURI="https://idref.fr/" >24298276X</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/" >0000-0001-7948-9459</datacite:nameIdentifier>
+        <datacite:nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org/viaf/" >1542159234530503371916</datacite:nameIdentifier>
       </datacite:contributor>
       <datacite:contributor contributorType="Other">
         <datacite:creatorName nameType="Personal">Caillat, Pierre</datacite:creatorName>

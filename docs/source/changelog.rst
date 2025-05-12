@@ -3,6 +3,17 @@
 Changelog 
 ============================================
 
+**2025-05-12**
+
+*Release 2.1.1
+
+* fix ``ResumptionToken`` issue: urlencoded resumptionToken is now valid
+* ``oai_openaire``: ``creator/nameIdentifier@schemeUri`` and  ``contributor/nameIdentifier@schemeUri``: provide identifier resolver
+* ``oai_openaire``: fix double ``datacite:rights``
+* ``ListSets``: add ``dc:type`` that specify which record identifiers are available
+
+
+
 **2025-04-29**
 
 *Release 2.1.0*
