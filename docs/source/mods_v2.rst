@@ -152,8 +152,8 @@ https://metadata.openedition.org/oai?verb=GetRecord&metadataPrefix=mods&identifi
       <mods:role>
         <mods:roleTerm authority="marcrelator" >aut</mods:roleTerm>
       </mods:role>
-      <mods:namePart type="given">Dupriez</mods:namePart>
-      <mods:namePart type="family">Vincent</mods:namePart>
+      <mods:namePart type="given">Vincent</mods:namePart>
+      <mods:namePart type="family">Dupriez</mods:namePart>
       <mods:nameIdentifier type="idref" typeURI="http://id.loc.gov/vocabulary/identifiers/idref">088067882</mods:nameIdentifier>
       <mods:nameIdentifier type="orcid" typeURI="http://id.loc.gov/vocabulary/identifiers/orcid">0000-0002-0714-7318</mods:nameIdentifier>
       <mods:nameIdentifier type="isni" typeURI="http://id.loc.gov/vocabulary/identifiers/isni">0000000119368823</mods:nameIdentifier>
@@ -164,8 +164,8 @@ https://metadata.openedition.org/oai?verb=GetRecord&metadataPrefix=mods&identifi
       <mods:role>
         <mods:roleTerm authority="marcrelator" >aut</mods:roleTerm>
       </mods:role>
-      <mods:namePart type="given">Dumay</mods:namePart>
-      <mods:namePart type="family">Xavier</mods:namePart>
+      <mods:namePart type="given">Xavier</mods:namePart>
+      <mods:namePart type="family">Dumay</mods:namePart>
       <mods:nameIdentifier type="idref" typeURI="http://id.loc.gov/vocabulary/identifiers/idref">121813843</mods:nameIdentifier>
       <mods:nameIdentifier type="isni" typeURI="http://id.loc.gov/vocabulary/identifiers/isni">0000000077335977</mods:nameIdentifier>
       <mods:nameIdentifier type="viaf" typeURI="http://id.loc.gov/vocabulary/identifiers/viaf">49559478</mods:nameIdentifier>

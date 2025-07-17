@@ -3,6 +3,13 @@
 Changelog 
 ============================================
 
+**2025-07-17**
+
+*Release 2.1.2*
+
+* ``oai_openaire`` and ``mods``: fix  inversion of creator and contributor ``givenName`` and ``familyName`` (bug introduced for Journals and Books in release 2.1.0)
+
+
 **2025-05-12**
 
 *Release 2.1.1*

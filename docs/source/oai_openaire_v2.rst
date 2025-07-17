@@ -88,8 +88,8 @@ https://metadata.openedition.org/oai?verb=GetRecord&metadataPrefix=oai_openaire&
     <datacite:creators>
       <datacite:creator>
         <datacite:creatorName nameType="Personal" >Dupriez, Vincent</datacite:creatorName>
-        <datacite:givenName>Dupriez</datacite:givenName>
-        <datacite:familyName>Vincent</datacite:familyName>
+        <datacite:givenName>Vincent</datacite:givenName>
+        <datacite:familyName>Dupriez</datacite:familyName>
         <datacite:nameIdentifier nameIdentifierScheme="IDREF" schemeURI="https://idref.fr/" >088067882</datacite:nameIdentifier>
         <datacite:nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/" >0000-0002-0714-7318</datacite:nameIdentifier>
         <datacite:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="https://isni.org/" >0000000119368823</datacite:nameIdentifier>
@@ -98,8 +98,8 @@ https://metadata.openedition.org/oai?verb=GetRecord&metadataPrefix=oai_openaire&
       </datacite:creator>
       <datacite:creator>
         <datacite:creatorName nameType="Personal" >Dumay, Xavier</datacite:creatorName>
-        <datacite:givenName>Dumay</datacite:givenName>
-        <datacite:familyName>Xavier</datacite:familyName>
+        <datacite:givenName>Xavier</datacite:givenName>
+        <datacite:familyName>Dumay</datacite:familyName>
         <datacite:nameIdentifier nameIdentifierScheme="IDREF" schemeURI="https://idref.fr/" >121813843</datacite:nameIdentifier>
         <datacite:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="https://isni.org/" >0000000077335977</datacite:nameIdentifier>
         <datacite:nameIdentifier nameIdentifierScheme="VIAF" schemeURI="https://viaf.org/viaf/" >49559478</datacite:nameIdentifier>
